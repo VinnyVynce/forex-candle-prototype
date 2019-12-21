@@ -1,0 +1,27 @@
+{
+  "name": "forex-candle-prototype",
+  "version": "0.0.6",
+  "description": "Prototype harvester for multiples exchanges",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VinnyVynce",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.6.0",
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "dotenv": "4.0.0",
+    "express": "4.16.2",
+    "express-handlebars": "3.0.0",
+    "moment": "2.19.3",
+    "mongodb": "^3.0.0-rc0",
+    "q": "^1.5.1",
+    "rc": "^1.2.2",
+    "request": "2.81.0",
+    "struct": "0.0.12"
+  }
+}
